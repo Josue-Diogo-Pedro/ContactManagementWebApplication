@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ContactManagement.Data.Context;
 
-public class AppContext : DbContext
+public class ManagementAppContext : DbContext
 {
-	public AppContext(DbContextOptions<AppContext> options) : base(options) { }
+	public ManagementAppContext(DbContextOptions<ManagementAppContext> options) : base(options) { }
 
 	public DbSet<Contact> Contacts { get; set; }
 
@@ -20,7 +20,7 @@ public class AppContext : DbContext
         foreach (var proprerty in builder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(fornecdor => fornecdor.ClrType == typeof(string))))
             proprerty.SetColumnType("varchar(100)");
 
-        builder.ApplyConfigurationsFromAssembly(typeof(AppContext).Assembly);
+        builder.ApplyConfigurationsFromAssembly(typeof(ManagementAppContext).Assembly);
 
         foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;

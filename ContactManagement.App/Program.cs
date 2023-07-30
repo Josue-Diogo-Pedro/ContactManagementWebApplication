@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using ContactManagement.App.Areas.Identity.Data;
+using ContactManagement.Data.Context;
+
 namespace ContactManagement.App
 {
     public class Program
@@ -5,6 +10,12 @@ namespace ContactManagement.App
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var connectionString = builder.Configuration.GetConnectionString("MariaDB") ?? throw new InvalidOperationException("Connection string 'ContactManagementAppContextConnection' not found.");
+
+            builder.Services.AddDbContext<ContactManagementAppContext>(options => options.UseMySQL(connectionString));
+            builder.Services.AddDbContext<ManagementAppContext>(options => options.UseMySQL(connectionString));
+
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ContactManagementAppContext>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -24,11 +35,14 @@ namespace ContactManagement.App
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapRazorPages();
 
             app.Run();
         }
