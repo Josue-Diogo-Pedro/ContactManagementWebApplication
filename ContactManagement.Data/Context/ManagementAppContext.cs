@@ -11,7 +11,8 @@ public class ManagementAppContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySQL("");
+        var version = new MySqlServerVersion(new Version(10, 6, 14));
+        optionsBuilder.UseMySql("Server=localhost;DataBase=db;Uid=root;Pwd=root;", version);
     }
 
 

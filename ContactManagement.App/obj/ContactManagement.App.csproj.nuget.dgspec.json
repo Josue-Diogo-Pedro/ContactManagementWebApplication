@@ -83,6 +83,14 @@
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [
@@ -213,19 +221,19 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.9, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [

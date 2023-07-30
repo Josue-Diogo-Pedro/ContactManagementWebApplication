@@ -40,6 +40,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/ContactViewModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFZpZXdNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/ContactViewModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFZpZXdNb2RlbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/ContactViewModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFZpZXdNb2RlbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/ContactViewModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFZpZXdNb2RlbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/ContactViewModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFZpZXdNb2RlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/DesenvolvedorIO/Teste/ContactManagementWebApplication/ContactManagement.App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

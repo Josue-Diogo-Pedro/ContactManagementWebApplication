@@ -14,9 +14,9 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<ManagementAppCont
                .Build();
 
         var builder = new DbContextOptionsBuilder<ManagementAppContext>();
-        
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
-        builder.UseSqlServer(connectionString);
+        var version = new MySqlServerVersion(new Version(10, 6, 14));
+        var connectionString = configuration.GetConnectionString("MariaDB");
+        builder.UseMySql(connectionString, version);
 
         return new ManagementAppContext(builder.Options);
     }

@@ -12,8 +12,12 @@ namespace ContactManagement.App
             var builder = WebApplication.CreateBuilder(args);
             var connectionString = builder.Configuration.GetConnectionString("MariaDB") ?? throw new InvalidOperationException("Connection string 'ContactManagementAppContextConnection' not found.");
 
-            builder.Services.AddDbContext<ContactManagementAppContext>(options => options.UseMySQL(connectionString));
-            builder.Services.AddDbContext<ManagementAppContext>(options => options.UseMySQL(connectionString));
+            var version = new MySqlServerVersion(new Version(10, 6, 14));
+
+            builder.Services.AddCors();
+
+            builder.Services.AddDbContext<ContactManagementAppContext>(options => options.UseMySql(connectionString, version));
+            builder.Services.AddDbContext<ManagementAppContext>(options => options.UseMySql(connectionString, version));
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ContactManagementAppContext>();
 

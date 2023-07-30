@@ -17,7 +17,9 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.8",
-          "MySql.Data.EntityFrameworkCore": "8.0.22"
+          "MySql.Data.EntityFrameworkCore": "8.0.22",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "runtime": {
           "ContactManagement.App.dll": {}
@@ -1332,6 +1334,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.9",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.30217"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.9": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.0.2",
@@ -1437,6 +1451,13 @@
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/7.0.0": {},
+      "Microsoft.Extensions.Logging.Console/1.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "NETStandard.Library": "1.6.1"
+        }
+      },
       "Microsoft.Extensions.Options/7.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -1731,6 +1752,14 @@
           }
         }
       },
+      "MySqlConnector/2.2.5": {
+        "runtime": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.5.0"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1885,6 +1914,34 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {
             "assemblyVersion": "6.3.1.1",
             "fileVersion": "6.3.1.1"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.9",
+          "MySqlConnector": "2.2.5"
+        },
+        "runtime": {
+          "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql.Design/1.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.1",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.Logging.Console": "1.1.1",
+          "MySqlConnector": "2.2.5",
+          "NETStandard.Library": "1.6.1",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Pomelo.EntityFrameworkCore.MySql.Design.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
           }
         }
       },
@@ -2850,8 +2907,8 @@
         "dependencies": {
           "ContactManagement.Business": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
-          "MySql.Data.EntityFrameworkCore": "8.0.22"
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "runtime": {
           "ContactManagement.Data.dll": {}
@@ -3481,6 +3538,13 @@
       "path": "microsoft.entityframeworkcore.relational/7.0.9",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WZKmQwuDUTLtjhxT/6c3hiMJTwi8OBl9rsPljY/ZhcMFAsF8sLj4uVrpkuNmrg5DEK2dEtnQn6p+Y9miQiIeZw==",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.1",
+      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.1.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.SqlServer/7.0.9": {
       "type": "package",
       "serviceable": true,
@@ -3578,6 +3642,13 @@
       "sha512": "sha512-kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw==",
       "path": "microsoft.extensions.logging.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKfmQdH7c89QyFvolNhwIU3AME0LXOo89DTNbu0c3+b42/0UkJi3fT4Jz6Pg8AY38yYYP7lH/MFVxmbRqiUmhw==",
+      "path": "microsoft.extensions.logging.console/1.1.1",
+      "hashPath": "microsoft.extensions.logging.console.1.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/7.0.1": {
       "type": "package",
@@ -3768,6 +3839,13 @@
       "path": "mysql.data.entityframeworkcore/8.0.22",
       "hashPath": "mysql.data.entityframeworkcore.8.0.22.nupkg.sha512"
     },
+    "MySqlConnector/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6sinY78RvryhHwpup3awdjYO7d5hhWahb5p/1VDODJhSxJggV/sBbYuKK5IQF9TuzXABiddqUbmRfM884tqA3Q==",
+      "path": "mysqlconnector/2.2.5",
+      "hashPath": "mysqlconnector.2.2.5.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -3844,6 +3922,20 @@
       "sha512": "sha512-T/igBDLXCd+pH3YTWgGVNvYSOwbwaT30NyyM9ONjvlHlmaUjKBJpr9kH0AeL+Ado4EJsBhU3qxXVc6lyrpRcMw==",
       "path": "nuget.versioning/6.3.1",
       "hashPath": "nuget.versioning.6.3.1.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qk5WB/skSZet5Yrz6AN2ywjZaB1pxfAmvQ+5I4khTkLwwIamI4QJoH2NphCWLFQL+2ar8HvsNCTmwYk0qhqL0w==",
+      "path": "pomelo.entityframeworkcore.mysql/7.0.0",
+      "hashPath": "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql.Design/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hzq1gPtZ3+1zuNhOAQea8Q7j6iX0FjRwNp5S30+X0jBdATiLEJvlfQi4wuVQDS5Y2ClYICGynNqAJUR3EtgA5g==",
+      "path": "pomelo.entityframeworkcore.mysql.design/1.1.2",
+      "hashPath": "pomelo.entityframeworkcore.mysql.design.1.1.2.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
