@@ -1,0 +1,12 @@
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\bin\Debug\net7.0\ContactManagement.Business.deps.json
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\bin\Debug\net7.0\ContactManagement.Business.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\bin\Debug\net7.0\ContactManagement.Business.pdb
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.csproj.AssemblyReference.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.AssemblyInfoInputs.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.AssemblyInfo.cs
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.csproj.CoreCompileInputs.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\refint\ContactManagement.Business.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ContactManagement.Business.pdb
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Business\obj\Debug\net7.0\ref\ContactManagement.Business.dll

@@ -1,0 +1,17 @@
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Data.deps.json
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Data.runtimeconfig.json
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Data.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Data.pdb
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Business.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\bin\Debug\net7.0\ContactManagement.Business.pdb
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.csproj.AssemblyReference.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.AssemblyInfoInputs.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.AssemblyInfo.cs
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.csproj.CoreCompileInputs.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.csproj.CopyComplete
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\refint\ContactManagement.Data.dll
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.pdb
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ContactManagement.Data.genruntimeconfig.cache
+C:\dev\DesenvolvedorIO\Teste\ContactManagementWebApplication\ContactManagement.Data\obj\Debug\net7.0\ref\ContactManagement.Data.dll
