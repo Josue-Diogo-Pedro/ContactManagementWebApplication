@@ -1,16 +1,16 @@
 ﻿@model IEnumerable<ContactManagement.App.ViewModels.ContactViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "List of Contacts";
 }
 
-<h1>Index</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-info" asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<table class="table table-hover">
+    <thead class="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
@@ -37,9 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.ID">Details</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
 }
